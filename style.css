@@ -118,7 +118,7 @@ nav .fa-shopping-cart {
   height: 475px;
 }
 
-.product-banner:hover>img {
+.product-banner:hover > img {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
