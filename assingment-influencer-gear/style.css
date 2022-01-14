@@ -276,8 +276,13 @@ footer h1 {
 }
 
 /* Mobile Devices */
+@media only screen and (max-width: 1250px) {
+  .collections {
+    margin: 20px 10px;
+  }
+}
 
-@media only screen and (max-width: 988px) {
+@media screen and (max-width: 988px) {
   nav {
     padding: 30px;
   }
@@ -321,15 +326,7 @@ footer h1 {
   }
 }
 
-@media only screen and (max-width: 1300px) {
-  .collections {
-    margin: 20px 20px;
-  
-}
-  
-}
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 499px) {
   nav {
     padding: 30px;
   }
