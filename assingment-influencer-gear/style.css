@@ -8,6 +8,7 @@
 :root {
   --main-color: #3a3a3a;
 }
+
 a,
 li,
 ul,
@@ -53,4 +54,46 @@ nav {
   font-size: 52px;
   line-height: 70px;
   font-weight: bold;
+}
+
+.title p {
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.booking-btn {
+  width: 196px;
+  height: 44px;
+  background-color: #e02c6d;
+  border-radius: 41px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+
+.fas {
+  margin: 0 9px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10%;
+}
+
+.product-banner {
+  background: url(./images/Circle-design.svg);
+  width: 475px;
+  height: 475px;
+}
+
+.product-banner img {
+  width: 440px;
+  height: 414px;
 }
