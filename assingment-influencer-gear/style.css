@@ -118,6 +118,11 @@ nav .fa-shopping-cart {
   height: 475px;
 }
 
+.product-banner:hover>img {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
 .product-banner img {
   width: 440px;
   height: 414px;
@@ -326,7 +331,7 @@ footer h1 {
   }
 }
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 488px) {
   nav {
     padding: 30px;
   }
@@ -356,6 +361,13 @@ footer h1 {
 
   .product-banner {
     margin: 50px 0;
+    width: 257px;
+    height: 257px;
+    background-size: contain;
+  }
+  .product-banner img {
+    width: 220px;
+    height: 200px;
   }
 
   .title {
